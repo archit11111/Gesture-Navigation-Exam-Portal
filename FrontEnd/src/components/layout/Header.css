@@ -1,0 +1,50 @@
+#header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#181f2a;
+    font-family: nunito sans;
+    margin: auto;
+}
+
+#header:hover{
+    color: chartreuse !important;
+}
+
+a:hover{
+    text-decoration: none;    
+}
+
+
+
+#header .title {
+    margin: auto;
+    padding: 0 1rem;
+    color: #ffffff;
+}
+
+#header .auth-options {
+    height: 100%;
+    display: flex;
+}
+
+#header .auth-options button {
+    padding: 0 3rem;
+    background-color:sienna;
+    color:white;
+    font-size: 1.1rem;
+    transition: ease-in 0.4s;
+    outline: none;
+}
+
+#header .auth-options button:hover {
+    background-color: #181f2a;
+    color: chartreuse;
+}
+
+@media screen and (max-width: 550px) {
+    #header .title {
+      font-size: 1.2rem;
+    }
+}

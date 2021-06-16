@@ -1,0 +1,64 @@
+.landingInfo-container{
+    background-color: #181f2a;
+    color: white;
+    padding-bottom: 30px;
+  }
+  .bg-black{
+    background-color: black;
+  }
+  .landingInfo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .text-image-row{
+    flex-direction: row-reverse;
+    width: 90%;
+    flex-wrap: wrap;  
+  }
+  .text-image-row:nth-child(2n+1) {
+    flex-direction: row;
+  }
+  .landingPage-img{
+    max-height: 400px;
+    padding-bottom: 40px;
+  }
+  .features-container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1200px;
+  }
+  .feature-img{
+    width: 150px;
+    margin: auto;
+  }
+  .feature{
+    display: flex;
+    flex-direction: column;  
+  }
+  .feature-text{
+    max-width: 150px;  
+    text-align: center;
+    align-self: center;
+    margin: 10px;
+  }
+  @media screen and (max-width:850px){
+    .text-image-row{
+      display: block;
+      width: 100%;
+    }
+    .features-container{
+      display: block;
+      margin: auto;
+    }
+    .landingPage-img{
+      max-width: 250px !important;
+    }
+    .feature-img{
+      margin-top: 40px;
+    }
+  }
+  

@@ -1,0 +1,108 @@
+.webcam{  
+    /* position: absolute; */
+    top: 0px;
+    right: 0px;
+  }
+  .webcam-frame{
+    height: 200px;
+  }
+  
+  .recalibrate-button{
+    margin-top: -8px;
+    width: 266.6px;
+    border-radius: 0px;
+  }
+  
+  .details-container{
+    margin: 5px;
+  }
+  
+  #result{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  
+  #time-remaining{
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  
+  #end-test{  
+    display: block;
+    margin: auto;
+    width: 80%;
+  
+  }
+  
+  .instructions{
+    padding-left: 0.5em;
+  }
+  
+  .instructions li{
+    margin-left: 1em;
+    font-size: 20px;
+  }
+  /* .prevQuestion, .nextQuestion{
+    margin-top: 30px;
+  } */
+  
+  .question-container{  
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    min-height: 200px;  
+  }
+  
+  .question{  
+    margin: auto;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  .question-col{
+    padding: 0;
+  }
+  .webcam-col{
+    max-width: 266px;
+    padding: 0;
+  }
+  
+  .option-form{
+    margin: 50px;  
+    padding: 30px;
+    border: 1px black solid;
+  }
+  .option-form div{
+    margin: 10px;
+  }
+  .exam-buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  .prevQuestion{
+    margin-left: 50px;
+  }
+  .nextQuestion{
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .question-navbar{
+    margin: 32px ;
+    display: flex;
+    justify-content: space-start;
+    flex-wrap: wrap;  
+  }
+  .question-navbar > *{
+    margin: 5px;
+  }
+
+.focused {
+  border: solid 3px green;
+}
+
+button:disabled{
+  cursor: not-allowed;
+}
